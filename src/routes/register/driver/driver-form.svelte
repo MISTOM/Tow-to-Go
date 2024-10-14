@@ -5,7 +5,6 @@
     import * as Form from "$lib/components/ui/form";
     import { Input } from "$lib/components/ui/input";
     import { driverSchema, type DriverSchema } from "$lib/driver-schema";
-	import { Field } from "formsnap";
   
     export let data: SuperValidated<Infer<DriverSchema>>;
     
